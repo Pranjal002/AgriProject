@@ -241,7 +241,7 @@ export default function AddSubsidy({ onNavigate }) {
   };
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6">
+    <div className="w-full space-y-6">
       {/* Page Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div>
@@ -904,3 +904,4 @@ export default function AddSubsidy({ onNavigate }) {
     </div>
   );
 }
+

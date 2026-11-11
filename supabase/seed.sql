@@ -91,3 +91,4 @@ INSERT INTO public.audit_log (action, table_name, record_id, old_values, new_val
 ('CREATE', 'subsidies', 's1111111-1111-1111-1111-111111111111', NULL, '{"amount": 750000, "engine": "M575DI98214X", "office": "Bharatpur Metropolitan"}', NOW() - INTERVAL '15 days'),
 ('CREATE', 'subsidies', 's2222222-2222-2222-2222-222222222222', NULL, '{"amount": 180000, "engine": "SK12HP44901B", "office": "Damak Municipality"}', NOW() - INTERVAL '10 days'),
 ('DUPLICATE_FLAG', 'duplicate_alerts', 'd1111111-1111-1111-1111-111111111111', NULL, '{"engine_number": "M575DI98214X", "attempted_office": "Damak Municipality", "status": "open"}', NOW() - INTERVAL '2 hours');
+

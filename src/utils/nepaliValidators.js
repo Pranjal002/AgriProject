@@ -76,3 +76,4 @@ export function toNepaliDigits(str) {
   if (!str) return '';
   return str.toString().replace(/[0-9]/g, match => nepaliDigitsMap[match] || match);
 }
+

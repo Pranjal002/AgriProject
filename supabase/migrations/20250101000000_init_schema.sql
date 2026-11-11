@@ -609,3 +609,4 @@ CREATE POLICY "Authenticated users can upload product photos"
     ON storage.objects FOR INSERT
     TO authenticated
     WITH CHECK (bucket_id = 'product-photos');
+

@@ -5,8 +5,8 @@ export default function Footer() {
   const { isNepali } = useLanguage();
 
   return (
-    <footer className="bg-white border-t border-slate-200 py-6 px-4 sm:px-6 text-xs text-slate-500 mt-auto">
-      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+    <footer className="bg-white border-t border-slate-200 py-6 px-4 sm:px-6 text-xs text-slate-500 mt-auto w-full">
+      <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
           <p className="font-semibold text-slate-700">
             {isNepali
@@ -29,3 +29,4 @@ export default function Footer() {
     </footer>
   );
 }
+

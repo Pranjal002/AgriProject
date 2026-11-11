@@ -49,8 +49,8 @@ export default function Header({ onToggleSidebar, onNavigate }) {
   return (
     <header className="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-sm">
       {/* Top National Government Bar */}
-      <div className="bg-gradient-to-r from-gov-900 via-gov-800 to-gov-950 text-white px-4 sm:px-6 py-2.5">
-        <div className="flex items-center justify-between gap-4 flex-wrap max-w-7xl mx-auto">
+      <div className="bg-gradient-to-r from-gov-900 via-gov-800 to-gov-950 text-white px-4 sm:px-6 py-2.5 w-full">
+        <div className="flex items-center justify-between gap-4 flex-wrap w-full">
           {/* Emblem & Ministry info */}
           <div className="flex items-center gap-3">
             {/* Government of Nepal Emblem Representation */}
@@ -110,7 +110,7 @@ export default function Header({ onToggleSidebar, onNavigate }) {
       </div>
 
       {/* Secondary App Navigation Header */}
-      <div className="px-4 sm:px-6 py-2 bg-white flex items-center justify-between max-w-7xl mx-auto">
+      <div className="px-4 sm:px-6 py-2 bg-white flex items-center justify-between w-full">
         {/* Mobile menu trigger */}
         <button
           onClick={onToggleSidebar}
@@ -239,3 +239,4 @@ export default function Header({ onToggleSidebar, onNavigate }) {
     </header>
   );
 }
+

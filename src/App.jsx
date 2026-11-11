@@ -71,14 +71,14 @@ function AppContent() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100/70 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-100/70 flex flex-col font-sans w-full">
       {/* Top Header */}
       <Header
         onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
         onNavigate={navigateTo}
       />
 
-      <div className="flex-1 flex w-full max-w-7xl mx-auto">
+      <div className="flex-1 flex w-full">
         {/* Navigation Sidebar */}
         <Sidebar
           currentTab={currentTab}
@@ -88,7 +88,7 @@ function AppContent() {
         />
 
         {/* Main Content Pane */}
-        <main className="flex-1 p-4 sm:p-6 lg:p-8 overflow-y-auto">
+        <main className="flex-1 p-4 sm:p-6 lg:p-8 overflow-y-auto w-full min-w-0">
           {renderActivePage()}
         </main>
       </div>
@@ -110,3 +110,4 @@ export default function App() {
     </LanguageProvider>
   );
 }
+

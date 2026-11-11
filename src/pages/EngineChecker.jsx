@@ -61,7 +61,7 @@ export default function EngineChecker() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto space-y-6">
+    <div className="w-full space-y-6">
       {/* Header */}
       <div className="text-center space-y-2 py-4">
         <div className="inline-flex p-3 bg-gov-100 text-gov-800 rounded-2xl mb-1 shadow-xs">
@@ -254,3 +254,4 @@ export default function EngineChecker() {
     </div>
   );
 }
+

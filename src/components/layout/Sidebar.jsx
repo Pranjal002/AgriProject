@@ -195,3 +195,4 @@ export default function Sidebar({ currentTab, onSelectTab, isOpen, onClose }) {
     </>
   );
 }
+

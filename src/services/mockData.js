@@ -483,3 +483,4 @@ export const INITIAL_AUDIT_LOGS = [
     created_at: '2024-04-10T10:20:00Z'
   }
 ];
+

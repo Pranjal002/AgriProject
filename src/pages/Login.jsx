@@ -57,7 +57,7 @@ export default function Login() {
   return (
     <div className="min-h-screen bg-slate-900 flex flex-col justify-between selection:bg-gov-600 selection:text-white">
       {/* Top Bar */}
-      <div className="p-4 sm:p-6 flex items-center justify-between max-w-7xl mx-auto w-full">
+      <div className="p-4 sm:p-6 flex items-center justify-between w-full">
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-full bg-white/10 p-1 flex items-center justify-center border border-white/20">
             <svg viewBox="0 0 100 100" className="w-full h-full">
@@ -246,3 +246,4 @@ export default function Login() {
     </div>
   );
 }
+

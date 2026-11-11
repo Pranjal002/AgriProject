@@ -52,3 +52,4 @@ function escapeCSV(val) {
 export function triggerPrintReport(title = 'Nepal Agriculture Subsidy Report') {
   window.print();
 }
+

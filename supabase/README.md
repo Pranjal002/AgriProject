@@ -40,3 +40,4 @@ npm run dev
 ```
 
 The application detects your Supabase environment variables and connects directly to live Supabase Auth, PostgreSQL tables, RLS policies, and Storage!
+
